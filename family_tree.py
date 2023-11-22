@@ -12,11 +12,8 @@ def unique_couple_name(father, mother, people, couple_names):
 
 
 def parse_line(ln):
-    child, child_gender, father, mother = ln.split(",")
-    child = child.strip()
-    father = father.strip()
-    mother = mother.strip()
-    child_gender = int(child_gender.strip())
+    child, child_gender, father, mother = [k.strip() for k in ln.split(",")]
+    child_gender = int(child_gender)
     return child, child_gender, father, mother
 
 
