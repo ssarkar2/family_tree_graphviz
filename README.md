@@ -66,6 +66,9 @@ mincross = 2.0"B_C0" [shape=diamond,style=filled,label="",height=.1,width=.1] ;
 
 }
 ```
+
+![rendered_family_tree](tree.svg "rendered_family_tree")
+
 ## Tests
 ```
 pytest test.py
