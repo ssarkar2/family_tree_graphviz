@@ -2,7 +2,7 @@
 
 I was having a difficult time understanding a complex family tree being explained to me with a lot of dramatic handwaving and frantic pointing, so I thought I would hunker down and learn/understand the tree once and for all.
 
-Naturally drawing a digraph for a family tree is the most natural way to go about illuminating oneself of such intricacies. So found [this](https://stackoverflow.com/questions/2271704/family-tree-layout-with-dot-graphviz), and started putting family members into the digraph.
+Obviously, drawing a digraph for a family tree is the most natural way to go about illuminating oneself of such intricacies. So found [this](https://stackoverflow.com/questions/2271704/family-tree-layout-with-dot-graphviz), and started putting family members into the digraph.
 
 Each person needs multiple lines; 2 nodes for parents, one for the child, a node denoting the parent's union, and then edges connecting the union node with parents and the child. So, you know, a lot.
 
